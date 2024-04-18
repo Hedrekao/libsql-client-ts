@@ -3,12 +3,5 @@
     "packages/libsql-core",
     "packages/libsql-client",
     "packages/libsql-client-wasm"
-  ],
-
-  "scripts": {
-    "postinstall": "cp -r ./node_modules/@libsql ../ && rm -rf ./libsql-ts-client-fork"
-  }
-
-
-  
+  ]
 }

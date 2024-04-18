@@ -5,5 +5,4 @@
 Session.vim
 
 node_modules/*
-!node_modules/@libsql
 
