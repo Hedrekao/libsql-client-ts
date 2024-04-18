@@ -3,5 +3,7 @@
     "packages/libsql-core",
     "packages/libsql-client",
     "packages/libsql-client-wasm"
-  ]
+  ],
+  "name": "libsql-client-ts",
+  "version": "1.0.0"
 }
