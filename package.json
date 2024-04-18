@@ -3,9 +3,5 @@
     "packages/libsql-core",
     "packages/libsql-client",
     "packages/libsql-client-wasm"
-  ],
-
-  "scripts": {
-    "postinstall": "cd ./packages/libsql-core && npm install && npm run build && cd .. && cd ./libsql-client && npm install && npm run build"
-  }
+  ]
 }
