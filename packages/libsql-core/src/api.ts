@@ -19,7 +19,7 @@ export interface Config {
     syncUrl?: string;
 
     /** Sync interval in seconds. */
-    syncInterval?: number;
+    syncPeriod?: number;
 
     /** Enables or disables TLS for `libsql:` URLs.
      *

@@ -52,7 +52,7 @@ export function _createClient(config: ExpandedConfig): Client {
         authToken: config.authToken,
         encryptionKey: config.encryptionKey,
         syncUrl: config.syncUrl,
-        syncInterval: config.syncInterval,
+        syncPeriod: config.syncPeriod,
     };
 
     const db = new Database(path, options);
