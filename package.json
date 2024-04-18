@@ -6,6 +6,6 @@
   ],
 
   "scripts": {
-    "postinstall": "cd ./node_modules/@libsql/client/packages/libsql-core && npm install && npm run build && cd .. && cd ./libsql-client && npm install && npm run build && cd .. && cd ./libsql-client && npm install && npm run build"
+    "postinstall": "pwd && npm install && npm run build && cd .. && cd ./libsql-client && npm install && npm run build && cd .. && cd ./libsql-client && npm install && npm run build"
   }
 }
