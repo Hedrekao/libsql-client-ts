@@ -3,5 +3,12 @@
     "packages/libsql-core",
     "packages/libsql-client",
     "packages/libsql-client-wasm"
-  ]
+  ],
+
+  "scripts": {
+    "postinstall": "cp ./node_modules/@libsql ../"
+  }
+
+
+  
 }
